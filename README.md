@@ -26,7 +26,7 @@ Our submitted systems were based on **deep learning architectures**, combining b
   To address lower performance on **ultrasonography** images, we experimented with **targeted fine-tuning** and **label masking** strategies that specialized model behavior for this modality (see our paper for full details).
 
 - **Ensemble Models**  
-  Our final submission included **ensembles** combining outputs from all models above using **union-based** and **confidence-weighted aggregation** strategies. This boosted robustness and helped capture complementary signals across systems.
+  Our final submission included **ensembles** combining outputs from all models above using **union-based** and **intersection-based aggregation** strategies. This boosted robustness and helped capture complementary signals across systems.
 
 ---
 
