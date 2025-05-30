@@ -19,9 +19,6 @@ Our submitted systems were based on **deep learning architectures**, combining b
 - **CNN + Feed-Forward Classifier**  
   We used various CNN backbones (e.g., **ResNet**, **EfficientNet**) pre-trained on **ImageNet** to extract image embeddings, followed by fully connected layers for multi-label prediction.
 
-- **Image Retrieval + k-NN Tag Propagation**  
-  We implemented a retrieval-based method using dense image embeddings. For each query image, the system retrieves its top-*k* most similar training examples and predicts tags based on frequency aggregation among the neighbors.
-
 - **Modality-Specific Enhancements**  
   To address lower performance on **ultrasonography** images, we experimented with **targeted fine-tuning** and **label masking** strategies that specialized model behavior for this modality (see our paper for full details).
 
