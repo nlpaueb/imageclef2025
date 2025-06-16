@@ -1,0 +1,3 @@
+[submodule "Caption Prediction/5-DMMCS"]
+	path = Caption Prediction/5-DMMCS
+	url = https://github.com/nlpaueb/dmmcs
